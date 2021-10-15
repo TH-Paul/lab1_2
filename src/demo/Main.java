@@ -1,7 +1,11 @@
 package demo;
 
 public class Main {
-
+    /**
+     *
+     * @param zahlen - array de int
+     * @return numarul cel mai mare
+     */
     public static int max_zahl(int[] zahlen){
         int max = 0;
 
@@ -15,6 +19,11 @@ public class Main {
         return max;
     }
 
+    /**
+     *
+     * @param zahlen - array de int
+     * @return numarul cel mai mic
+     */
     public static int min_zahl(int[] zahlen){
         int min = zahlen[0];
 
@@ -28,6 +37,11 @@ public class Main {
         return min;
     }
 
+    /**
+     *
+     * @param zahlen - array de int
+     * @return suma maxima
+     */
     public static int max_summe(int[] zahlen){
         int summe = 0;
 
@@ -49,6 +63,11 @@ public class Main {
         return summe;
     }
 
+    /**
+     *
+     * @param zahlen - array de int
+     * @return suma minima
+     */
     public static int min_summe(int[] zahlen){
         int summe = 0;
 
